@@ -115,7 +115,7 @@ group = publishedGroupId                               // Maven Group ID for the
 
 apply plugin: 'com.jfrog.bintray'
 
-version = libraryVersion
+version = "2.3"
 
 if (project.hasProperty("android")) { // Android libraries
     task sourcesJar(type: Jar) {
