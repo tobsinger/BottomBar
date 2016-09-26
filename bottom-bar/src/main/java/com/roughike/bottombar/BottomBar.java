@@ -846,7 +846,7 @@ public class BottomBar extends LinearLayout implements View.OnClickListener, Vie
      *
      * @param visible true resets translation to 0, false translates view to hidden
      */
-    private void toggleShyVisibility(boolean visible) {
+    public void toggleShyVisibility(boolean visible) {
         BottomNavigationBehavior<BottomBar> from = BottomNavigationBehavior.from(this);
         if (from != null) {
             from.setHidden(this, visible);
