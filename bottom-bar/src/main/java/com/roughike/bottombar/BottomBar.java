@@ -696,7 +696,7 @@ public class BottomBar extends LinearLayout implements View.OnClickListener, Vie
         return true;
     }
 
-    private void selectTabAtPosition(int position, boolean animate) {
+    public void selectTabAtPosition(int position, boolean animate) {
         BottomBarTab oldTab = getCurrentTab();
         BottomBarTab newTab = getTabAtPosition(position);
 
